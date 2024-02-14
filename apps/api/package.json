@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && echo 'Done'",
     "buildx": "./scripts/buildx.sh",
     "clean": "rm -rf dist && rm -rf buildx",
     "stripe": "stripe listen --forward-to localhost:3001/v1/stripe/webhook",

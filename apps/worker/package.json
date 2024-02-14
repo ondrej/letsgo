@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && echo 'Done'",
     "buildx": "./scripts/buildx.sh",
     "clean": "rm -rf dist && rm -rf buildx",
     "dev": "nodemon --exec \"node -r esbuild-register ./src/server.ts\" -e .ts",
